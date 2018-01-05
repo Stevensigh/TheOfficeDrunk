@@ -27,6 +27,11 @@ module.exports = {
         test: /\.html$/,
         loader: 'html-loader',
       },
+      // Load Images
+      {
+        test: /\.(gif|jpg|png)$/,
+        loader: 'file-loader',
+      },
     ],
   },
   plugins: [
